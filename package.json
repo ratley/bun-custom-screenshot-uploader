@@ -1,0 +1,21 @@
+{
+  "name": "ss",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.8.0",
+    "elysia": "latest",
+    "formidable": "^3.5.1",
+    "mime": "^4.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/formidable": "^3.4.5",
+    "@types/uuid": "^9.0.7",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
