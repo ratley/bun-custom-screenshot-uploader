@@ -12,7 +12,7 @@ app.use(cors());
 
 app.get("/", () => {
   return new Response(
-    `A custom screenshot uploader, made with <a href="https://elysiajs.com/" target="_blank">Elysia</a>.`,
+    `A custom screenshot uploader made with <a href="https://elysiajs.com/" target="_blank">Elysia</a>.`,
     {
       headers: {
         "Content-Type": "text/html",
